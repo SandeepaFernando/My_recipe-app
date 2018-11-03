@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sandeepafernando.my_recipe.noodle1"
+    tools:showIn="@layout/activity_noodle1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewWathead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nod3"
+                />
+
+            <TextView
+                android:id="@+id/textViewWatTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="BANG BANG SHRIMP PASTA"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textViewWatIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ingredients:"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="8 ounces spaghetti"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="8 ounces medium shrimp, peeled and deveined"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1 tablespoon olive oil"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="3 cloves garlic, minced"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1 teaspoon smoked paprika, or more, to taste"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Kosher salt and freshly ground black pepper, to taste"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatbulletIn7"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullettwo"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewIn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="2 tablespoons chopped fresh parsley leaves"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM9"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Method"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM10"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="To make the sauce, whisk together mayonnaise, Thai sweet chili sauce, garlic, lime juice, Sriracha and red pepper flakes; set aside.."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM11"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="In a large pot of boiling salted water, cook pasta according to package instructions; drain well."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM12"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Preheat oven to 400 degrees F. Lightly oil a baking sheet or coat with nonstick spray."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM13"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Place shrimp onto the prepared baking sheet. Add olive oil, garlic, paprika, salt and pepper, to taste, and gently toss to combine. Place into oven and roast just until pink, firm and cooked through, about 6-8 minutes. Remove from oven and set aside."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM14"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="In a large bowl, combine pasta, shrimp and mayonnaise mixture."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewWatM15"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/bullet"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewM15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Serve immediately, garnished with parsley."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
